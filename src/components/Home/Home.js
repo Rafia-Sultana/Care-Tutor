@@ -12,7 +12,7 @@ const Home = () => {
             </section>
             <section className='mt-5 container'>
                 <h2 className='text-primary text-center'>Services</h2>
-                <div className=" service-container">
+                <div className="row row-cols-md-3 row-cols-1">
                     {
                         services.map(service => <Card
                             key={service.id}

@@ -1,3 +1,14 @@
 .about {
     height: 80vh;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 40px;
+    border: 1px solid lightblue;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 8px 8px lightblue;
+    align-items: center;
 }

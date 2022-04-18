@@ -4,14 +4,14 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className='footer'>
-            <div><h4>Tutors</h4>
+            <div><h6>Tutors</h6>
                 <p>Caretutors.com is a service product of Dot Connect Ltd. This is the Bangladesh's first-ever & most trusted leading online platform for tutors & students.</p>
                 <p><small>copyright warning!!</small></p>
 
             </div>
-            <div>
+            <div className='middle-column'>
 
-                <h5>Useful Links</h5>
+                <h6>Useful Links</h6>
                 <p>Terms and Conditions</p>
                 <p>Become A Tutor</p>
                 <p>Hire A Tutor</p>
@@ -19,8 +19,8 @@ const Footer = () => {
 
             </div>
             <div>
-                <h5>term of use</h5>
-                <h5>FAQs</h5>
+                <h6>term of use</h6>
+                <h6>FAQs</h6>
             </div>
         </div>
     );

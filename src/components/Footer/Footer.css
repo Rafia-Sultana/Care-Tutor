@@ -1,4 +1,5 @@
 .footer {
+    font-size: 15px;
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -6,4 +7,8 @@
     color: aliceblue;
     height: 200px;
     align-items: center;
+}
+
+.middle-column {
+    font-size: 15px;
 }

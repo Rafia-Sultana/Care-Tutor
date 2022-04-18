@@ -9,6 +9,7 @@ import Login from './components/Login/Login'
 import SignUp from './components/SignUp/SignUp';
 import RequireAuth from './components/RequireAuth/RequireAuth';
 import About from './components/About/About';
+import Blog from './components/Blog/Blog';
 
 
 
@@ -26,7 +27,7 @@ function App() {
             <CheckOut></CheckOut>
           </RequireAuth>
         }></Route>
-
+        <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/about' element={<About></About>}></Route>
       </Routes>
       <Footer></Footer>

@@ -7,3 +7,13 @@
     height: 250px;
 
 }
+
+.price {
+    color: brown;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.body:hover {
+    background-color: rgb(221, 240, 246);
+}

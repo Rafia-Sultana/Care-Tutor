@@ -76,6 +76,7 @@ const LogIn = () => {
     return (
         <div className='form-container'>
             <div className="">
+                <h3 className='p-3 text-primary'>LogIn</h3>
 
                 <form onSubmit={handleSubmit}>
                     <div className="input-group">
@@ -98,8 +99,12 @@ const LogIn = () => {
                         <input className="form-submit" type="submit" value="Login" />
                     </div>
                 </form>
-                <button onClick={resetPassword}>Forget password?</button>
-                <button onClick={() => signInWithGoogle()}>continue with google</button>
+
+                <button className='button1' onClick={resetPassword}>Forget password?</button> <br />
+                <br />
+                <hr />
+                <button className='button2' onClick={() => signInWithGoogle()}>continue with google</button>
+
                 <p className='text'>
                     New to CareTutor? <Link className='form-link' to='/signup'>Create an Account</Link>
                 </p>
