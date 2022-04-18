@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login'
 import SignUp from './components/SignUp/SignUp';
 import RequireAuth from './components/RequireAuth/RequireAuth';
+import About from './components/About/About';
 
 
 
@@ -26,7 +27,7 @@ function App() {
           </RequireAuth>
         }></Route>
 
-
+        <Route path='/about' element={<About></About>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
