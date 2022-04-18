@@ -19,11 +19,11 @@ const Blog = () => {
                 <p><span className='fw-bold'>Answer:</span> Firebase is a service provided by Google. It has many features like Realtime database, Cloud functions, Analytics, Crashlytics, Cloud Firestore, etc. It helps us build and run successful apps.
                     Here are alternative of firebase:
                     <ul>
-                        <li> 1. Cookie-Based authentication</li> <br />
-                        <li> 2. Token-Based authentication </li><br />
-                        <li> 3.Third party access(OAuth, API-token)</li> <br />
-                        <li> 4. OpenId</li> <br />
-                        <li> 5. SAML</li>
+                        <li>  Cookie-Based authentication</li> <br />
+                        <li>  Token-Based authentication </li><br />
+                        <li> Third party access(OAuth, API-token)</li> <br />
+                        <li>  OpenId</li> <br />
+                        <li> SAML</li>
                     </ul>
                 </p>
             </div>
