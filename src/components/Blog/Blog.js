@@ -31,14 +31,14 @@ const Blog = () => {
                 <h5 className='qus-color'>What other services does firebase provide other than authentication</h5>
                 <p> <span className='fw-bold'>Answer:</span> Firebase provides other services also. Such as--
                     <pre>
-                        1.Cloud Firestore.<br />
-                        2.Cloud Functions.<br />
-                        3. Authentication.<br />
-                        4.Hosting.<br />
-                        5.Cloud Storage.<br />
-                        6.Google Analytics.<br />
-                        7.Predictions.<br />
-                        8.Cloud Messaging.
+                        Cloud Firestore.<br />
+                        Cloud Functions.<br />
+                        Authentication.<br />
+                        Hosting.<br />
+                        Cloud Storage.<br />
+                        Google Analytics.<br />
+                        Predictions.<br />
+                        Cloud Messaging.
                     </pre>
                 </p>
             </div>
