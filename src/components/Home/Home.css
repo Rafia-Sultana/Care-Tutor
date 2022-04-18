@@ -1,0 +1,22 @@
+.banner {
+    height: 80vh;
+    background-image: url('../../Photos/Tutoring-picture.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
+}
+
+.banner::before {
+    content: '';
+    z-index: 1;
+    background: rgba(8, 8, 8, 0.381);
+    position: absolute;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 40px;
+}

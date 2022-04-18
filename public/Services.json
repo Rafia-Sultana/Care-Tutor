@@ -1,27 +1,20 @@
 [
     {
         "id": "1",
-        "image": "https://www.visualsstock.com/images/Low/4/AK50393.jpg",
-        "title": "Class 8",
-        "description": "I will teach students 3 days in a week.I will guide ",
-        "price": "4000"
-    },
-    {
-        "id": "2",
         "image": "https://www.kindpng.com/picc/m/40-405645_college-student-images-png-transparent-png.png",
         "title": "Class 9",
         "description": "I will teach students 3 days in a week.I will guide ",
         "price": "5000"
     },
     {
-        "id": "3",
+        "id": "2",
         "image": "https://www.assignnmentinneed.com/wp-content/uploads/2020/10/successful-college-student-lg.png",
         "title": "Class 10",
         "description": "I will teach students 3 days in a week.I will guide ",
         "price": "7000"
     },
     {
-        "id": "4",
+        "id": "3",
         "image": "https://news.uwf.edu/wp-content/uploads/2020/07/iStock-913812230.jpg",
         "title": "Class 11",
         "description": "I will teach students 3 days in a week.I will guide ",

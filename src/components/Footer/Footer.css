@@ -1,0 +1,9 @@
+.footer {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(49, 44, 44);
+    color: aliceblue;
+    height: 200px;
+    align-items: center;
+}
